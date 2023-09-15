@@ -1,4 +1,4 @@
-public class CheckIfAllsAsAppearsBeforeBs {
+public class CheckIfAllAsAppearsBeforeBs {
     //2124. Check if All A's Appears Before All B's
     //https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/
     //If character is b, but the next character is an a. Then return false.

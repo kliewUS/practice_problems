@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class TruncateSentence {
     // 1816. Truncate Sentence
     // https://leetcode.com/problems/truncate-sentence/

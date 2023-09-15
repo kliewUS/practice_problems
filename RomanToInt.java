@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class RomanToInt {
     // 13. Roman to Integer
     // https://leetcode.com/problems/roman-to-integer/

@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class SumOfUniqueEle {
     //1748. Sum of Unique Elements
     //https://leetcode.com/problems/sum-of-unique-elements/

@@ -1,3 +1,8 @@
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Map;
+import java.util.TreeMap;
+
 public class SortThePeople {
     // 2418. Sort the people.
     // https://leetcode.com/problems/sort-the-people/

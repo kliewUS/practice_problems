@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class DistributeCandies{
         //1103. Distribute Candies to People
     //https://leetcode.com/problems/distribute-candies-to-people/
