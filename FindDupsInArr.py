@@ -1,0 +1,16 @@
+#442. Find All Duplicates in an Array
+#https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
+#Mark every number we check as negative. 
+#So check if nums[n - 1] is negative, n being nums[i], the current number at index i.
+#If it is, append to the result array. Otherwise, set the nums[n - 1] as negative.
+class Solution:
+    def findDuplicates(self, nums: List[int]) -> List[int]:
+        res = []
+
+        for num in nums:
+            n = abs(num)
+            if nums[n - 1] < 0:
+                res.append(n)
+            nums[n - 1] = -nums[n - 1]
+
+        return res
